@@ -1,5 +1,4 @@
 /**
-* Template Name: Impact - v1.0.0
 * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -773,7 +772,7 @@ section {
 }
 
 @media (max-width: 667.98px) {
-  .about .sub-titulo h2 {
+  .about .sub-titulo h2, h4 {
     font-size: 28px;
     font-weight: 800;
 
@@ -1447,6 +1446,16 @@ section {
   font-style: italic;
   margin: 0 0 15px 0 0 0;
   padding: 0;
+}
+/*--------------------------------------------------------------
+# Exames Clinica Details Section
+--------------------------------------------------------------*/
+section .exames-clinica-details img{
+
+  width: auto;
+  height: 370px;
+  border-radius: 25px;
+
 }
 
 /*--------------------------------------------------------------
@@ -2919,7 +2928,7 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 }
 
 .footer .footer-info p {
-  font-size: 14px;
+  font-size: 13px;
   font-family: var(--font-primary);
 }
 
@@ -2962,7 +2971,7 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 .footer .footer-links ul i {
   padding-right: 2px;
   color: rgba(0, 131, 116, 0.8);
-  font-size: 12px;
+  font-size: 11px;
   line-height: 0;
 }
 
@@ -2998,7 +3007,7 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 .footer .credits {
   padding-top: 4px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .footer .credits a {
