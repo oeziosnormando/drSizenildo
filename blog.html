@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Impact Bootstrap Template - Blog</title>
+  <title>DR. SIZENILDO FIGUEIRÊDO</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
+  <!-- Favicons 
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,15 +30,18 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!--video boostrap-->
+  <link rel="stylesheet" href="dist/css/videoplayer.min.css" />
+  <script src="dist/js/videoplayer.min.js"></script>
+
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Impact - v1.0.0
-  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
 </head>
 
 <body>
@@ -44,9 +50,8 @@
   <section id="topbar" class="topbar d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a
-            href="mailto:contact@example.com">contact@example.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+        <i class="bi bi-phone d-flex align-items-center"><span>+55 (69) 3223-0132/0133</span></i>
+        <i class="bi bi-whatsapp d-flex align-items-center ms-4"><span>+55 (69) 98421-0011</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -57,101 +62,88 @@
     </div>
   </section><!-- End Top Bar -->
 
-  <header id="header" class="header d-flex align-items-center">
+  <header id="header" class="header d-flex justify-content-center">
+    <nav id="navbar" class="navbar align-items-center justify-content-center">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="certificados.html">Certificados</a></li>
+        <li><a href="producao_cientifica.html">Produção cientifica</a></li>
+        <li><a href="clinica.html">A clínica</a></li>
+        <li class="dropdown"><a href="#"><span>Exames e procedimentos</span> <i
+              class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <ul>
+            <li><a href="ressonancia_magnetica.html">Ressonância Magnética</a></li>
+            <li><a href="tomografia_computadorizada.html">Tomografia Computadorizada</a></li>
+            <li><a href="ultrassonografia.html">Ultrassonografia</a></li>
+            <li><a href="elastografia.html">Elastografia</a></li>
+            <li><a href="densitometria.html">Densitometria óssea</a></li>
+            <li><a href="biopsia.html">Biópsias</a></li>
+            <li><a href="radiografia.html">Radiografia Digital</a></li>
+            <li><a href="mamografia.html">Mamografia Digital</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contatos</a></li>
+      </ul>
+    </nav><!-- navbar -->
 
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Impact<span>.</span></h1>
-      </a>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i
-                class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
-                    class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="ressonancia_magnetica.html">Ressonância Magnética</a></li>
-                  <li><a href="#">Tomografia Computadorizada</a></li>
-                  <li><a href="#">Ultrassonografia</a></li>
-                  <li><a href="#">Elastografia</a></li>
-                  <li><a href="#">Densitometria óssea</a></li>
-                  <li><a href="#">Biópsias</a></li>
-                  <li><a href="#">Radiografia Digital</a></li>
-                  <li><a href="#">Mamografia Digital</a></li>
-                </ul>
-              </li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-      </nav><!-- .navbar -->
+    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-    </div>
+    <!--Icone do whatsapp fixo-->
+    <a href="https://api.whatsapp.com/send?phone=55698124-0011&text=Olá, preciso agendar meu(s) exame(s)."
+      target="_blank" style="position:fixed;bottom: 80px; right: 15px;">
+      <svg enable-background="new 0 0 512 512" width="43" height="43" version="1.1" viewBox="0 0 512 512"
+        xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z"
+          fill="#4CAF50" />
+        <path
+          d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z"
+          fill="#FAFAFA" />
+      </svg>
+    </a>
   </header><!-- End Header -->
-  <!-- End Header -->
 
   <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs">
-      <div class="page-header d-flex align-items-center" style="background-image: url('');">
-        <div class="container position-relative">
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-6 text-center">
-              <h2>Blog</h2>
-              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut
-                a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum
-                dolorem.</p>
-            </div>
+    <section class="hero">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          <div class="section-header col col-md-12 col-sm-8">
+            <h2>Blog</h2>
+            <p class="text-center fs-4"><em><span>"Não é o diploma médico, mas a qualidade humana, o decisivo." 
+              <br>- Carl Jung.
+                </span></em>
+            </p>
           </div>
         </div>
       </div>
-      <nav>
-        <div class="container">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Blog</li>
-          </ol>
-        </div>
-      </nav>
-    </div><!-- End Breadcrumbs -->
+    </section>
 
     <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog">
+    <section class="blog">
       <div class="container" data-aos="fade-up">
 
         <div class="row gy-4 posts-list">
-
+            <h2 class="fw-bold" style="color: #fc7f19;">Postes Recentes</h2>
           <div class="col-xl-4 col-md-6">
             <article>
-
               <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/blog/blog_paaf_tireoide/foto-dr-sizenildo-puncao.jpg" alt="" class="img-fluid">
               </div>
 
-              <p class="post-category">Politics</p>
+              <p class="post-category">Exames e procedimentos</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+                <a href="blog-details-paaf-tireoide.html">Paaf de Tireoide</a>
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+               <!--<img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">--> 
                 <div class="post-meta">
-                  <p class="post-author-list">Maria Doe</p>
+                  <p class="post-author-list fw-bold" style="color:#fc7f19;">Dr. Sizenildo</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                    <time datetime="2022-10-11">Nov 15, 2022</time>
                   </p>
                 </div>
               </div>
@@ -163,125 +155,21 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                <img src="assets/img/blog/blog_elastografia_hepatica/blog-aparelho-usg.JPG" alt="" class="img-fluid">
               </div>
 
-              <p class="post-category">Sports</p>
+              <p class="post-category">Exames e procedimentos</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="blog-details-elastografia-hepatica.html">Elastografia Hepática</a>
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <!--<img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">-->
                 <div class="post-meta">
-                  <p class="post-author-list">Allisa Mayer</p>
+                  <p class="post-author-list fw-bold" style="color:#fc7f19;">Dr. Sizenildo</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Entertainment</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author-list">Mark Dower</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-4.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Sports</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Non rem rerum nam cum quo minus olor distincti</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-4.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author-list">Lisa Neymar</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 30, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-5.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Politics</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-5.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author-list">Denis Peterson</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jan 30, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-6.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Entertainment</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-6.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author-list">Mika Lendon</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Feb 14, 2022</time>
+                    <time datetime="2022-01-01">Nov 10, 2022</time>
                   </p>
                 </div>
               </div>
@@ -291,16 +179,83 @@
 
         </div><!-- End blog posts list -->
 
+        <!-- blog pagination -->
         <div class="blog-pagination">
           <ul class="justify-content-center">
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
+            <li class="active"><a href="#">1</a></li>
+             <li><a href="#">2</a></li>
             <li><a href="#">3</a></li>
           </ul>
         </div><!-- End blog pagination -->
 
       </div>
     </section><!-- End Blog Section -->
+
+    <!-- ======= Hero Section ======= -->
+    <section class="hero">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4 mt-3">>
+          <div class="section-header col-md-12">
+            <h2>Nossos Contatos</h2>
+            <p><span>Precisa de alguma informação? <br> Entre em contato com a nossa equipe que ela
+                está
+                preparada para
+                te ajudar.</span></p>
+          </div>
+        </div>
+
+        <div class="icon-boxes position-relative">
+          <div class="container position-relative">
+            <div class="row gy-4 mt-2">
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-phone"></i></div>
+                  <h4 class="title"><a href="" class="stretched-link">Telefone</a></h4>
+                  <p>2ª a 6ª das 07h às 11h <br> 13h às 17h00. <br>
+                    Sábado das 07h às 11h.</p>
+                  <a href="#">(69) 3223-0132 / 0133</a>
+                </div>
+              </div>
+              <!--End Icon Box -->
+
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-envelope"></i></div>
+                  <h4 class="title"><a href="" class="stretched-link">E-mail</a></h4>
+                  <p>Envie-nos.
+                    <br>Agradecemos Imensamente.
+                  </p>
+                  <a href="#">recepcao@alphaclin.net.br</a>
+                </div>
+              </div>
+              <!--End Icon Box -->
+
+              <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-geo-alt"></i></div>
+                  <h4 class="title"><a href="" class="stretched-link">Endereço</a></h4>
+                  <p>Avenida Calama, 2215 - São João Bosco.<br>Porto Velho/Ro.</p>
+                  <a href="https://goo.gl/maps/Ym1qSc9xU2xdYVLb8" target="_blank">Visualizar
+                    no Google
+                    Maps</a>
+                </div>
+              </div>
+              <!--End Icon Box -->
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <div id="map">
+      <!-- How to change your own map point
+      1. Go to Google Maps
+      2. Click on your location point
+      3. Click "Share" and choose "Embed map" tab
+      4. Copy only URL and paste it within the src="" field below-->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15773.509157623623!2d-63.895794!3d-8.750526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa3e62da17338ed8f!2sAlphaclin%20Diagn%C3%B3sticos!5e0!3m2!1spt-BR!2sbr!4v1615179844533!5m2!1spt-BR!2sbr"
+        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 
   </main><!-- End #main -->
 
@@ -309,12 +264,11 @@
 
     <div class="container">
       <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span>Impact</span>
-          </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta
-            donna mare fermentum iaculis eu non diam phasellus.</p>
+        <div class="col-lg-6 col-md-12 footer-info">
+          <h3 class="text-wrap fw-bold fs-3" style="color: #fc7f19;">
+            <span>Dr. Sizenildo Figueirêdo</span>
+          </h3>
+          <h4>Humanização e compromisso com o diagnóstico!</h4>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -323,53 +277,43 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Links Úteis</h4>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Certificados</a></li>
+            <li><a href="#">Produção cientifica</a></li>
+            <li><a href="#">A clínica</a></li>
+            <li><a href="#"></a></li>
           </ul>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
+        <div class="col-lg-3 col-6 footer-contact">
+          <h4>Contatos</h4>
           <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
+            Avenida Calama <br>
+            Porto velho, RO 2215<br>
+            Rondônia <br><br>
+            <strong>Fone:</strong> +55 (69) 3223-0132/0133<br>
+            <strong>E-mail:</strong> recepcao@alphaclin.net.br<br>
           </p>
 
         </div>
-
       </div>
     </div>
 
     <div class="container mt-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
+        <hr>
+        &copy; Copyright <strong><span>WebNativa</span></strong>. Todos os direitos reservados
+
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Design by <a href="#">Oézios Normando</a>
       </div>
     </div>
 
@@ -389,6 +333,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
