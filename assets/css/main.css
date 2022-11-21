@@ -25,9 +25,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #FFEFBA;
+  background: #ffe89d;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ffe89b);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #FFEFBA);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -1463,6 +1463,7 @@ section .exames-clinica-details img {
   color: var(--color-primary);
   font-size: 19px;
 }
+
 
 /*--------------------------------------------------------------
 # Clinica Details Slider
